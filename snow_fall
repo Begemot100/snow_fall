@@ -1,0 +1,19 @@
+import snowfall as s
+
+s.coord(45)
+while True:
+    sd.start_drawing()
+    s.make_snow(color=sd.background_color)
+    s.change_snow()
+    s.make_snow()
+    # to_delete =
+    if s.chek_snow():
+
+        s.snow_again(s.chek_snow())
+        s.del_snow(s.chek_snow())
+        print(s.list_num)
+
+    sd.sleep(0.1)
+    sd.finish_drawing()
+    if sd.user_want_exit():
+        break
